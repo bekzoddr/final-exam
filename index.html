@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./assets/images/header__logo.svg" />
+    <link rel="stylesheet" href="./css/home.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <a id="backtop" href="#">
+      <img src="assets/images/up-arrow.png" alt="arrow" />
+    </a>
+    <div id="loader">
+      <div class="loadingio-spinner-eclipse-c7kl3vc0v8r">
+        <div class="ldio-xf8i52ldli8"><div></div></div>
+      </div>
+    </div>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-body-dark fixed-top z-1"
+        id="navbar"
+      >
+        <div class="container-lg">
+          <a class="navbar-brand text-light fw-bold" href="index.html"
+            ><img src="./assets/images/header__logo.svg"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end vh-100"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img src="image/home/logo.png" />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul
+                class="navbar-nav justify-content-end flex-grow-1 pe-3 text-dark g-5"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-light"
+                    aria-current="page"
+                    href="./pages/menu.html"
+                    >Menu</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./pages/news.html"
+                    >News</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./pages/about.html"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="./pages/contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+              <button
+                class="btn btn-outline-light rounded-5 px-4"
+                type="submit"
+              >
+                <a
+                  href="./pages/contact.html"
+                  class="login text-light text-decoration-none"
+                  >Log in</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="row section__padding">
+            <div class="col-12 col-md-6">
+              <h3>Chase the new Flavour</h3>
+              <h1>The key to Fine dining</h1>
+              <p>
+                Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+                volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+                aliquam amet tellus
+              </p>
+              <button class="btn hero__btn">
+                <a class="text-light text-decoration-none" href="#"
+                  >Explore Menu</a
+                >
+              </button>
+              <div class="vector">
+                <img src="./assets/images/Vector 8.svg" alt="" />
+                <h4 class="text-uppercase text-white">Scroll</h4>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <img
+                class="hero__image w-100"
+                src="./assets/images/klipartz 2.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="popular">
+        <div class="container popular">
+          <h3>Popular Dishes</h3>
+          <div class="owl-carousel owl-theme">
+            <div class="carousel__item">
+              <div class="card">
+                <div class="card__intro m-auto text-center">
+                  <img src="./assets/images/popular1.png" />
+                  <h4 class="text-center">
+                    Barbecue Shish kebab Shashlik Skewer
+                  </h4>
+                  <img class="star" src="./assets/images/stars.svg" />
+                  <h3>$12.00</h3>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="card">
+                <div class="card__intro m-auto text-center">
+                  <img src="./assets/images/popular2.png" />
+                  <h4 class="text-center">
+                    Barbecue Shish kebab Shashlik Skewer
+                  </h4>
+                  <img class="star" src="./assets/images/stars.svg" />
+                  <h3>$12.00</h3>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="card">
+                <div class="card__intro m-auto text-center">
+                  <img src="./assets/images/popular3.svg" />
+                  <h4 class="text-center">
+                    Barbecue Shish kebab Shashlik Skewer
+                  </h4>
+                  <img class="star" src="./assets/images/stars.svg" />
+                  <h3>$12.00</h3>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="card">
+                <div class="card__intro m-auto text-center">
+                  <img src="./assets/images/popular4.svg" />
+                  <h4 class="text-center">
+                    Barbecue Shish kebab Shashlik Skewer
+                  </h4>
+                  <img class="star" src="./assets/images/stars.svg" />
+                  <h3>$12.00</h3>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__item">
+              <div class="card">
+                <div class="card__intro m-auto text-center">
+                  <img src="./assets/images/popular1.png" />
+                  <h4 class="text-center">
+                    Barbecue Shish kebab Shashlik Skewer
+                  </h4>
+                  <img class="star" src="./assets/images/stars.svg" />
+                  <h3>$12.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="assets/images/scale.svg" class="scale" />
+        </div>
+      </section>
+      <section id="pack">
+        <div class="container">
+          <h1>Our Regular Menu Pack</h1>
+          <ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="home-tab-pane"
+                aria-selected="true"
+              >
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="shaurma-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#shaurma-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="shaurma-tab-pane"
+                aria-selected="false"
+              >
+                Shawarma
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="Turk"
+                data-bs-toggle="tab"
+                data-bs-target="#Turk-pane"
+                type="button"
+                role="tab"
+                aria-controls="Turk-pane"
+                aria-selected="false"
+              >
+                Turk kebab
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="Hamburger"
+                data-bs-toggle="tab"
+                data-bs-target="#Hamburger-pane"
+                type="button"
+                role="tab"
+                aria-controls="Hamburger-pane"
+                aria-selected="false"
+              >
+                Hamburger kebab
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="doner-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#doner-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="doner-tab-pane"
+                aria-selected="false"
+              >
+                Doner
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="Shish"
+                data-bs-toggle="tab"
+                data-bs-target="#Shish-pane"
+                type="button"
+                role="tab"
+                aria-controls="Shish-pane"
+                aria-selected="false"
+              >
+                Shish
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="Pizza-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#Pizza-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="Pizza-tab-pane"
+                aria-selected="false"
+              >
+                Pizza
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="Deserts-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#Deserts-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="Deserts-tab-pane"
+                aria-selected="false"
+              >
+                Deserts
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home-tab-pane"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <div class="all__card">
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes1.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes2.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes3.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes4.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes5.png" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes6.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes7.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes8.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes9.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes10.png" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes11.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes12.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="shaurma-tab-pane"
+              role="tabpanel"
+              aria-labelledby="shaurma-tab"
+              tabindex="0"
+            >
+              <div class="shaurma__card">
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes12.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes2.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="Turk-pane"
+              role="tabpanel"
+              aria-labelledby="Turk-tab"
+              tabindex="0"
+            >
+              <div class="turk__card">
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes8.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes9.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__intro m-auto text-center">
+                    <img src="./assets/images/dishes1.svg" />
+                    <h4 class="text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h4>
+                    <h3>$12.00</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="about-tab-pane"
+              role="tabpanel"
+              aria-labelledby="about-tab"
+              tabindex="0"
+            >
+              About content
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="test">
+        <div class="container">
+          <div class="text-center">
+            <h5>Testimony</h5>
+            <img src="assets/images/search.svg" />
+            <h3>Happy customers</h3>
+          </div>
+          <div class="owl-carousel owl-theme">
+            <div class="carousel__card">
+              <h4>Maria</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisq...
+              </p>
+              <div class="cate d-flex">
+                <div class="cate__date d-flex">
+                  <img class="icon" src="assets/images/calendar.svg" />
+                  <p>06/02/2022</p>
+                </div>
+                <div class="cate__time d-flex">
+                  <img class="icon" src="assets/images/clock.svg" />
+                  <p>11:15</p>
+                </div>
+                <div class="cate__see d-flex">
+                  <img class="icon" src="assets/images/eye.svg" />
+                  <p>222</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__card">
+              <h4>Maria</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisq...
+              </p>
+              <div class="cate d-flex">
+                <div class="cate__date d-flex">
+                  <img class="icon" src="assets/images/calendar.svg" />
+                  <p>06/02/2022</p>
+                </div>
+                <div class="cate__time d-flex">
+                  <img class="icon" src="assets/images/clock.svg" />
+                  <p>11:15</p>
+                </div>
+                <div class="cate__see d-flex">
+                  <img class="icon" src="assets/images/calendar.svg" />
+                  <p>222</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__card">
+              <h4>Maria</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisq...
+              </p>
+              <div class="cate d-flex">
+                <div class="cate__date d-flex">
+                  <img class="icon" src="assets/images/calendar.svg" />
+                  <p>06/02/2022</p>
+                </div>
+                <div class="cate__time d-flex">
+                  <img class="icon" src="assets/images/clock.svg" />
+                  <p>11:15</p>
+                </div>
+                <div class="cate__see d-flex">
+                  <img class="icon" src="assets/images/eye.svg" />
+                  <p>222</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__card">
+              <h4>Maria</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisq...
+              </p>
+              <div class="cate d-flex">
+                <div class="cate__date d-flex">
+                  <img class="icon" src="assets/images/calendar.svg" />
+                  <p>06/02/2022</p>
+                </div>
+                <div class="cate__time d-flex">
+                  <img class="icon" src="assets/images/clock.svg" />
+                  <p>11:15</p>
+                </div>
+                <div class="cate__see d-flex">
+                  <img class="icon" src="assets/images/eye.svg" />
+                  <p>222</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel__card">
+              <h4>Maria</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisq...
+              </p>
+              <div class="cate d-flex">
+                <div class="cate__date d-flex">
+                  <img class="icon" src="assets/images/calendar.svg" />
+                  <p>06/02/2022</p>
+                </div>
+                <div class="cate__time d-flex">
+                  <img class="icon" src="assets/images/clock.svg" />
+                  <p>11:15</p>
+                </div>
+                <div class="cate__see d-flex">
+                  <img class="icon" src="assets/images/eye.svg" />
+                  <p>222</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="news">
+        <div class="container">
+          <div class="headline text-center">
+            <h5>News</h5>
+            <img src="assets/images/search.svg" />
+            <h3>Gerícht updates</h3>
+          </div>
+          <div class="news__cards">
+            <div class="card__new">
+              <img
+                src="assets/images/card.image.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h1>tips for prepping and caring for your grill</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                </p>
+                <div class="card__more">
+                  <a href="#">Read More</a>
+                  <p>16 Apr 2021</p>
+                </div>
+              </div>
+            </div>
+            <div class="card__new">
+              <img
+                src="assets/images/card.image.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h1>tips for prepping and caring for your grill</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                </p>
+                <div class="card__more">
+                  <a href="#">Read More</a>
+                  <p>16 Apr 2021</p>
+                </div>
+              </div>
+            </div>
+            <div class="card__new">
+              <img
+                src="assets/images/card.image.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h1>tips for prepping and caring for your grill</h1>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                  in.
+                </p>
+                <div class="card__more">
+                  <a href="#">Read More</a>
+                  <p>16 Apr 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="text-center" id="view">
+            <button>View More</button>
+          </a>
+        </div>
+      </section>
+      <section id="video">
+        <img src="./assets/images/video.png" class="video" alt="video" />
+        <button
+          type="button"
+          class="pause btn modal-button-custom modal__btn"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          <img src="assets/images/home.play.svg" />
+        </button>
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content modal-custom">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  <a
+                    class="text-dark text-decoration-none"
+                    href="https://www.instagram.com/reel/CzvTCG2sfk2/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                    >Instagram</a
+                  >
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-dialog modal-dialog-centered">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.instagram.com/reel/CzvTCG2sfk2/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="photo">
+        <div class="container photo">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <h6>Instagram</h6>
+              <img src="assets/images/search.svg" />
+              <h3>Photo Gallery</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.
+              </p>
+              <button>View More</button>
+            </div>
+            <div class="col-12 col-lg-8">
+              <div class="owl-carousel owl-theme">
+                <div class="carousel__card">
+                  <img src="assets/images/owl1.png" />
+                  <div class="card__hover">
+                    <img src="assets/images/u_instagram.svg" />
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <img src="assets/images/owl2.png" />
+                  <div class="card__hover">
+                    <img src="assets/images/u_instagram.svg" />
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <img src="assets/images/owl3.png" />
+                  <div class="card__hover">
+                    <img src="assets/images/u_instagram.svg" />
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <img src="assets/images/owl1.png" />
+                  <div class="card__hover">
+                    <img src="assets/images/u_instagram.svg" />
+                  </div>
+                </div>
+                <div class="carousel__card">
+                  <img src="assets/images/owl3.png" />
+                  <div class="card__hover">
+                    <img src="assets/images/u_instagram.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="subs">
+        <div class="container">
+          <div class="subs text-center">
+            <h5 class="text-light">Newsletter</h5>
+            <h3 class="text-light">Subscribe to Our Newsletter</h3>
+            <h6 class="text-light">And never miss latest Updates!</h6>
+            <div class="subs__input d-flex text-center">
+              <input type="text" placeholder="Email Address" />
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" #footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-4 text-center text-light">
+            <h4>Contact Us</h4>
+            <h5>9 W 53rd St, London, NY 10019, UK</h5>
+            <h5>
+              +1 212-344-1230 <br />
+              +1 212-555-1230
+            </h5>
+          </div>
+          <div class="col-12 col-lg-4 text-center text-light">
+            <img src="assets/images/footer.image.svg" />
+            <p>
+              "The best way to find yourself is to lose yourself in the service
+              of others.”
+            </p>
+            <div
+              class="social d-flex w-25 justify-content-center align-items-center m-auto g-3"
+            >
+              <img src="assets/images/facebook.svg" />
+              <img class="mx-3" src="assets/images/twitter.svg" />
+              <img src="assets/images/instagram.svg" />
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 text-center text-light">
+            <h4>Working Hours</h4>
+            <h5>
+              Monday-Friday: <br />
+              08:00 am -12:00 am
+            </h5>
+            <h5>
+              Saturday-Sunday: <br />
+              07:00am -11:00 pm
+            </h5>
+          </div>
+        </div>
+        <div class="foot">
+          <h3>2022 Pop online. All Rights reserved.</h3>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

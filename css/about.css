@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,700&display=swap");
+@font-face {
+  font-family: "Cera Round Pro", sans-serif;
+  src: url(../../assets/fonts//Fontspring-DEMO-ceraroundpro-black.otf);
+}
+@font-face {
+  font-family: "Cera Round Pro", sans-serif;
+  src: url(../../assets/fonts//Fontspring-DEMO-ceraroundpro-bold.otf);
+}
+@font-face {
+  font-family: "Cera Round Pro", sans-serif;
+  src: url(../../fonts/Fontspring-DEMO-ceraroundpro-light.otf);
+}
+@font-face {
+  font-family: "Cera Round Pro", sans-serif;
+  src: url(../../assets/fonts//Fontspring-DEMO-ceraroundpro-medium.otf);
+}
+@font-face {
+  font-family: "Cera Round Pro", sans-serif;
+  src: url(../../assets/fonts//Fontspring-DEMO-ceraroundpro-regular.otf);
+}
+@font-face {
+  font-family: "Cera Round Pro", sans-serif;
+  src: url(../../assets/fonts//Fontspring-DEMO-ceraroundpro-thin.otf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-Black.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-Light.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-Medium.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Inter", sans-serif;
+  src: url(../../assets/fonts//Inter-Thin.ttf);
+}
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../../assets/fonts//OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../../assets/fonts//OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../../assets/fonts//OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../../assets/fonts//OpenSans-Medium.ttf);
+}
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../../assets/fonts//OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url(../../assets/fonts//OpenSans-SemiBold.ttf);
+}
+.section__padding {
+  padding-top: 244px;
+  padding-bottom: 300px;
+}
+
+.scrolled {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  background-color: #BB2339;
+  -webkit-box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  z-index: 100000 !important;
+}
+
+nav {
+  padding-top: 26px !important;
+  padding-bottom: 26px !important;
+  background: #BB2339;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 99999px !important;
+}
+nav .active {
+  font-weight: 700;
+}
+nav .offcanvas {
+  background-color: #BB2339;
+}
+nav .navbar-toggler {
+  border-radius: 0;
+  border: none;
+}
+nav .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+nav .navbar-toggler-icon {
+  background-image: url(../../image/home/menu.svg);
+  border: none;
+}
+nav .btn-close {
+  background-image: url(../../image/home/close.svg);
+}
+nav .navbar-nav {
+  gap: 30px;
+}
+nav .login:hover {
+  background: #fff;
+}
+nav .login:hover a {
+  color: #BB2339 !important;
+}
+
+#subs {
+  background-color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-left: 150px;
+}
+#subs .subs {
+  position: absolute;
+  top: -193px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: #BB2339;
+  -webkit-box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+          box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+  padding: 64px 252px;
+}
+@media (max-width: 1200px) {
+  #subs .subs {
+    padding: 50px;
+  }
+}
+#subs .subs h5 {
+  color: var(--ffffff, #fff);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+}
+#subs .subs h3 {
+  color: #fff;
+  text-align: center;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+#subs .subs .subs__input {
+  padding-top: 64px;
+}
+#subs .subs .subs__input input {
+  width: 100%;
+  border-radius: 100px;
+  border: 1px solid rgba(245, 239, 219, 0.5);
+  color: #AAA;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  text-transform: capitalize;
+  padding: 12px 19px;
+  margin-right: 32px;
+  background-color: transparent;
+}
+#subs .subs .subs__input button {
+  color: #fff;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  background-color: transparent;
+}
+
+footer {
+  padding-top: 292px;
+  padding-bottom: 40px;
+  background-color: #BB2339 !important;
+}
+footer h4 {
+  color: #fff;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Cera Round Pro", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 1.28px;
+  text-transform: capitalize;
+}
+footer h5 {
+  padding-top: 24px;
+  padding-bottom: 10px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.64px;
+}
+footer img {
+  width: 50%;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.64px;
+  padding-top: 32px;
+  padding-bottom: 45px;
+}
+
+.foot {
+  padding-top: 80px;
+}
+.foot h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+}
+
+.about p {
+  color: #242424;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  letter-spacing: 0.8px;
+  opacity: 0.8;
+}
+
+.about__image {
+  width: 720px;
+  height: 640px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+#about {
+  padding-left: 300px;
+  padding-right: 300px;
+}

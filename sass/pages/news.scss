@@ -1,0 +1,157 @@
+@use "../layout/header";
+@use "../themes/backtop";
+@use "../layout/footer";
+// @use "../themes/loading";
+@use "../utils/variables" as var;
+#backtop {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+    bottom: -110px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    animation: bgcolor infinite 4s;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+}
+#backtop.backtop-show {
+    bottom: 25px;
+    z-index: 10;
+}
+.address {
+position: relative;
+top: 100px;
+gap: 5px;
+a {
+color: #B0B0B0;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: capitalize;
+display: flex;
+gap: 5px;
+    }
+
+.link {
+color: #BB2339;
+    }
+}
+#news {
+padding-top: 120px;
+margin-left: 100px;
+margin-right: 100px;
+
+.headline {
+        h5 {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 43px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 0.92px;
+text-transform: capitalize;
+        }
+h3 {
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+letter-spacing: 1.44px;
+text-transform: capitalize;
+font-family: 'Cera Round Pro';
+color: #BB2339;
+margin-bottom: 50px;
+        }
+    }
+.news__cards {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 35px;
+margin-bottom: 100px;
+    }
+.card__new {
+width: 416px;
+border: 1px solid gray;
+border-radius: 15px;
+h1 {
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+text-transform: capitalize;
+padding: 8px;
+        }
+p {
+color: #AAA;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+padding: 20px 10px 0px;
+text-overflow: 2;
+        }
+    }
+}
+.card__more {
+display: flex;
+gap: 150px;
+margin-left: 20px;
+
+    a {
+margin-top: 20px;
+text-decoration: none;
+color: #BB2339;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.64px;
+    }
+}
+
+#view {
+padding-top: 100px;
+margin-bottom: 150px;
+button {
+display: inline-flex;
+padding: 8px 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+background-color: #BB2339;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 175%;
+letter-spacing: 0.64px;
+color: #fff;
+transition: 0.5s;
+    }
+margin-left: 550px;
+:hover {
+background-color: #fff;
+border: 1px solid #BB2339;
+color: #000;
+    }
+}
+#subs{
+margin-top: 300px;
+}

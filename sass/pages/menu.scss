@@ -1,0 +1,218 @@
+@use "../layout/header";
+@use "../layout/footer";
+@use "../themes/loading";
+@use "../utils/variables" as var;
+#menu{
+margin-top: 200px;
+
+ul{
+display: flex;
+display: inline-block;
+flex-direction: column;
+li{
+color: #FFF;
+}
+}
+}
+#backtop {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+    bottom: -110px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+    animation: bgcolor infinite 4s;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    img {
+        width: 60px;
+        height: 60px;
+    }
+}
+.menu__food{
+display: flex;
+}
+.menu__box{
+h1{
+color: #FFF;
+font-variant-numeric: lining-nums tabular-nums;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 54px;
+text-transform: capitalize;
+margin-bottom: 30px;
+margin-top: 50px;
+}
+width: 370px;
+height: 600px;
+flex-shrink: 0;
+border-radius: 20px;
+background:#BB2339;
+padding: 20px 30px;
+}
+#home-tab, #shaurma-tab, #Turk, #Hamburger, #doner-tab, #Shish, #Pizza-tab, #Deserts-tab{
+background-color: #BB2339;
+border: 2px solid #fff;
+border-radius: 100px;
+color: #fff;
+}
+.nav-pills .nav-link.active {
+background-color:#fff !important;
+color: black !important;
+border-radius: 100px;
+border: 2px solid #BB2339;
+}
+.nav-pills{
+gap: 30px;
+}
+.all__card, .shaurma__card, .turk__card{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+margin-left: 100px;
+gap: 30px;
+}
+.scale{
+position: relative;
+bottom: 1050px;
+margin-left: 300px;
+}
+.card, .card3{
+padding: 30px 30px 50px 30px;
+h4 {
+color: #242424;
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-right: auto;
+padding-left: auto;
+margin-bottom: 30px;
+    }
+h3 {
+color: var.$primary-color;
+font-family: "Open Sans", sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 40px;
+    }
+}
+.card, .card3{
+transition: 0.5s;
+padding: 30px;
+&:hover {
+box-shadow: inset 0px 15px 40px rgba(var.$primary-color, $alpha: 0.5);
+border: 1px solid red;
+transition: 0.5s;
+    }
+}
+.address{
+margin-left:120px;
+margin-bottom: 20px;
+gap: 5px;
+a{
+color: #B0B0B0;
+font-variant-numeric: lining-nums tabular-nums;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: capitalize;
+display: flex;
+gap: 5px;
+}
+.link{
+color: #BB2339;
+}
+}
+
+#photo {
+    margin-bottom: 350px;
+    background: #f4f4f4;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    button {
+        color: #242424;
+        font-family: "Cera Round Pro", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 175%;
+        letter-spacing: 0.64px;
+        border-radius: 100px;
+        border: 1px solid var.$primary-color;
+        padding: 8px 32px;
+        background-color: transparent;
+    }
+
+    .photo {
+        color: #242424;
+        font-style: normal;
+
+        h6 {
+
+            font-variant-numeric: lining-nums tabular-nums;
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 130%;
+            letter-spacing: 0.92px;
+            text-transform: capitalize;
+        }
+
+        h3 {
+            text-align: center;
+            font-variant-numeric: lining-nums tabular-nums;
+            font-family: Cera Round Pro;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 130%;
+            letter-spacing: 1.44px;
+            text-transform: capitalize;
+        }
+
+        p {
+            color: #aaa;
+        }
+
+        .carousel__card {
+            &::after {
+                content: "";
+                position: absolute;
+                top: 300px;
+                left: 50px;
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                background: url("../../assets/images/u_instagram.svg") no-repeat center;
+                transition: 1s;
+            }
+
+            &:hover::after {
+                top: 110px;
+                left: 50px;
+                filter: blur(230deg,
+                        rgba(0, 0, 0, 0.75));
+            }
+
+            .card__hover {
+                position: absolute;
+                top: -130px;
+                left: -80px;
+            }
+        }
+    }
+}
