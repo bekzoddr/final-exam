@@ -109,22 +109,21 @@
     }
 }
 .address {
-    margin-left: 120px;
-    margin-bottom: 20px;
-    gap: 5px;
-
-    a {
-        color: #B0B0B0;
-        font-variant-numeric: lining-nums tabular-nums;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.42px;
-        text-transform: capitalize;
-        display: flex;
-        gap: 5px;
+gap: 5px;
+display: flex;
+a {
+color: #B0B0B0;
+font-variant-numeric: lining-nums tabular-nums;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: capitalize;
+display: flex;
+gap: 5px;
+margin-left: 200px;
     }
 
     .link {
